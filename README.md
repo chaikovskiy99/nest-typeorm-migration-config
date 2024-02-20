@@ -1,5 +1,12 @@
 # nest-typeorm-migration-config
 
+> [!NOTE]
+> Install typeorm globally.
+> npm -g i typeorm
+
+> [!WARNING]
+> entities: ['dist/**/*.entity.js'],
+> This assumes that your entities are in /src/module/entities folder
 
 ## create db/migrations folder in root directory
 * This is where we will store all migrations.
