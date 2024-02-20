@@ -58,4 +58,4 @@ export class AppModule {}
 > npm run migration:run
 
 - if you want to revert your last change, this will undo last migration.
-- npm run migration:revert 
+> npm run migration:revert 
